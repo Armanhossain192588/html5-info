@@ -13,6 +13,12 @@
             border: 1px solid black;
             padding: 5px;
         }
+        ul {
+            list-style-position: inside; /* Fixes the bullet position */
+        }
+        li {
+            text-align: left; /* Ensures the text aligns left */
+        }
     </style>
 </head>
 <body>
@@ -27,6 +33,7 @@
             <th>Salary</th>
            </tr>
         </thead>
+        <tbody>
         <tr>
             <td>1</td>
             <td>Bill Gates</td>
@@ -51,9 +58,22 @@
             <td>Facebook</td>
             <td>$1300</td>
         </tr>
+        </tbody>
         <tfoot>
-            <td colspan="4">Total Employee:4</td>
+           <tr>
+              <td colspan="4">Total Employees: 4</td>
+           </tr>
         </tfoot>
     </table>
+    <ul>
+        <li>TABLE: TABLE</li>
+        <li>TABLE HEAD: THEAD</li>
+        <li>TABLE BODY: TBODY</li>
+        <li>TABLE FOOT: TFOOT</li>
+        <li>TABLE ROW: TR</li>
+        <li>TABLE DATA: TD</li>
+        <li>TABLE HEAD: TH</li>
+        <li>CAPTION</li>
+    </ul>
 </body>
 </html>
